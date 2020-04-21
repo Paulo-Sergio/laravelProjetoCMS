@@ -46,9 +46,7 @@
       </table>
     </div>
 
-    <div class="card-footer">
-      {{$users->links()}}
-    </div>
+    {{$users->links()}}
   </div>
 
 @endsection
