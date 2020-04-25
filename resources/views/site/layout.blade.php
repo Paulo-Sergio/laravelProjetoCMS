@@ -44,7 +44,7 @@
 						<div class="col-xl-6 col-lg-7">
 							<div class="main-menu  d-none d-lg-block">
 								<nav>
-									<ul id="'naviga'tion">
+									<ul id="navigation">
 										@foreach ($front_menu as $menuslug => $menutitle)
 											<li>
 												<a href="{{$menuslug}}">{{$menutitle}}</a>
@@ -82,8 +82,7 @@
 								</a>
 							</div>
 							<p>
-								Firmament morning sixth subdue darkness
-								creeping gathered divide.
+								{{$front_config['subtitle']}}
 							</p>
 							<div class="socail_links">
 								<ul>

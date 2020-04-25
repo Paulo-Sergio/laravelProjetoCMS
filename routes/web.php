@@ -36,6 +36,8 @@ Route::prefix('painel')->group(function() {
     Route::resource('pages', 'Admin\PageController');
 });
 
+Route::fallback('Site\PageController@index');
+
 //Auth::routes();
 
 //Route::get('/home', 'HomeController@index')->name('home');
